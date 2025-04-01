@@ -1,7 +1,9 @@
 package spring;
 
+import org.springframework.stereotype.Component;
 import java.util.List;
 
+@Component
 public class InternalMarksDao implements MarksDao {
 
     public List<Integer> getMarks() {
